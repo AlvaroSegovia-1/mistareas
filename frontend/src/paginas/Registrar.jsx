@@ -90,9 +90,7 @@ export const Registrar = () => {
                 className="w-full mt-3 p-3 border rounded-xl bg-gray-100 "
                 value={nombre}
                 onChange={e => setNombre(e.target.value)}
-                />
-                
-
+            />
         </div>
 
         <div>
@@ -142,8 +140,8 @@ export const Registrar = () => {
         <input
              type="submit"
              value="Crear cuenta"
-             className="bg-sky-600 w-full py-3 mt-5 mb-5 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-900 transition-colors " />
-
+             className="bg-sky-600 w-full py-3 mt-5 mb-5 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-900 transition-colors " 
+            />
     
     </form>
 

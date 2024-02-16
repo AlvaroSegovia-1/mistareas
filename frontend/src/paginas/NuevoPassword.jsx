@@ -24,8 +24,7 @@ const NuevoPassword = () => {
              type="submit"
              value="Guardar nuevo password"
              className="bg-sky-600 w-full py-3 mt-5 mb-5 text-white uppercase font-bold rounded-xl hover:cursor-pointer hover:bg-sky-900 transition-colors " />    
-    </form>
-    
+    </form>    
 </>
   )
 }
